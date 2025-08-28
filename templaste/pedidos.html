@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pedido de Socorro</title>
+</head>
+<body>
+    <h2>Pedido de Socorro</h2>
+    <form method="POST">
+        Nome: <input type="text" name="nome"><br>
+        Bairro: <input type="text" name="bairro"><br>
+        Tipo:
+        <select name="tipo">
+            <option value="Ambulancia">🚑 Ambulância</option>
+            <option value="Policia">🚓 Polícia</option>
+            <option value="Bombeiros">🚒 Bombeiros</option>
+        </select><br>
+        Latitude: <input type="text" name="lat" value="-15.1167"><br>
+        Longitude: <input type="text" name="lon" value="39.2667"><br>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
